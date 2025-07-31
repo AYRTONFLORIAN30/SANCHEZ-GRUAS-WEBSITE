@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 /* Estilos para la sección hero */
 .hero-section {
   height: 90vh;
+=======
+.hero-section {
+  height: 90vh; /* 🔽 Antes estaba en 100vh */
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
   background-color: #000;
   color: white;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center;
   padding: 20px 40px 30px 40px;
+=======
+  justify-content: center; /* centrado vertical total */
+  padding: 20px 40px 30px 40px; /* 🔧 reduciendo padding superior e inferior */
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -19,7 +29,11 @@
   max-width: 1400px;
   width: 100%;
   gap: 50px;
+<<<<<<< HEAD
   margin-top: -30px;
+=======
+  margin-top: -30px; /* 🔺 Subimos visualmente todo el contenido */
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 }
 
 .hero-text {
@@ -71,14 +85,23 @@
 }
 
 .hero-image img {
+<<<<<<< HEAD
   width: 100%;
   height: auto;
   max-height: 80vh;
+=======
+  width: 100%; /* 🔁 Asegura que use todo el espacio */
+  height: auto;
+  max-height: 80vh; /* 🔧 Para que no se desborde en pantallas grandes */
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
   object-fit: cover;
 }
 
 /* --------------- */
+<<<<<<< HEAD
 /* Sección Experiencia y Respaldo */
+=======
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 .experiencia-section {
   background-color: #f9f9f9;
   padding: 60px 40px;
@@ -135,7 +158,11 @@
 .card {
   background-color: white;
   border-radius: 4px;
+<<<<<<< HEAD
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+=======
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
   padding: 20px;
   flex: 1;
   text-align: center;
@@ -182,14 +209,28 @@
 
 .cards .card:nth-child(3) img {
   max-height: 260px;
+<<<<<<< HEAD
   margin-top: 40px;
 }
 
+=======
+  margin-top: 40px; /* empuja visualmente hacia el centro sin afectar lo de arriba */
+}
+
+/* Si la imagen está dentro de un contenedor, puedes usar esto para centrarla mejor */
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 .cards .card:nth-child(3) {
   padding-top: 30px;
 }
 
+<<<<<<< HEAD
 /* Sección Servicios */
+=======
+
+
+
+
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 .servicios-section {
   padding: 60px 40px;
   background-color: #fff;
@@ -218,6 +259,7 @@
 
 .servicios-grid {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 40px;
@@ -231,6 +273,19 @@
   transition: transform 0.3s ease;
   position: relative;
   padding: 20px;
+=======
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.servicio-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 }
 
 .imagen-servicio {
@@ -250,6 +305,14 @@
   justify-content: flex-end;
 }
 
+<<<<<<< HEAD
+=======
+.overlay i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 .overlay h3 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -262,17 +325,27 @@
   padding: 8px;
   text-align: center;
   font-size: 1.4rem;
+<<<<<<< HEAD
   position: absolute;
   bottom: 10px;
   right: 10px;
   border-radius: 50%;
   z-index: 2;
+=======
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: -15px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 }
 
 .servicio-card p {
   padding: 20px;
   font-size: 1rem;
   line-height: 1.5;
+<<<<<<< HEAD
   margin-top: 25px;
 }
 
@@ -409,4 +482,6 @@
 /* Restablecimiento para el arrastre del mouse */
 .slick-list {
   cursor: grab !important;
+=======
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
 }

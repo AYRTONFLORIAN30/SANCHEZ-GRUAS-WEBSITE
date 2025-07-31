@@ -12,8 +12,11 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
+=======
+>>>>>>> dd4219250c26ae66d2bf921b9621ccc03d735b36
     "web-vitals": "^2.1.4"
   },
   "scripts": {
